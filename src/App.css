@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+Link {
+  display: inline-block;
+  color: white;
+  text-decoration: none !important;
+  margin: 5px !important;
+}

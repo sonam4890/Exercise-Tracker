@@ -1,0 +1,13 @@
+.nav-Link {
+  color: rgb(85, 212, 27);
+  padding: 5px 10px;
+}
+
+.nav-Link:hover {
+  color: turquoise;
+}
+
+.navbar-nav {
+  position: absolute !important;
+  right: 20px;
+}
