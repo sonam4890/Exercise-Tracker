@@ -75,7 +75,7 @@ class EditExercise extends Component {
     };
     console.log(exercise);
     axios
-      .post(
+      .patch(
         "http://localhost:5000/exercises/update/" + this.props.match.params.id,
         exercise
       )
@@ -146,7 +146,9 @@ class EditExercise extends Component {
             ></input>
           </div>
           <div>
-            <button type="submit">Edit Exercise Log</button>
+            <button type="submit" className="btn btn-primary">
+              Edit Exercise Log
+            </button>
           </div>
         </form>
       </div>
